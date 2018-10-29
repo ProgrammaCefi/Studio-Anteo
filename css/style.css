@@ -1,0 +1,92 @@
+body{
+background: url(../images/bg-blgl.jpg)}
+
+.thumbs{
+    float: left;
+    width: 80px;
+}
+.w-90{
+    width:90%;
+}
+.gallery{
+  position:relative;
+}
+
+.assoluta{ 
+  position:absolute;
+   top:0; 
+   left:0; 
+ }
+
+.logo-centro{
+  width:64.6%;
+   background:rgba(198,198,198,0.3)
+ }
+
+.carousel-item img{width: 100%; height: 80%}
+
+.navbar-brand img{
+  width:75px;
+}
+
+.nav-bg{
+ background:#fec80e; 
+opacity: 0.9;
+}
+
+
+ul{
+  font-size:1.5rem;
+}
+
+ul li a img{
+  width:50px;
+}
+.shoulder-img{
+      width: 75%!important;
+    margin: 50% auto;
+
+}
+.titolo{
+  display: none;
+}
+
+.bg-yellow{
+  background:#fec80e;
+}
+
+
+@media(max-width:991px ){
+
+  nav img{
+    display: none;
+  }
+  .titolo{
+    display:block;
+  }
+  .shoulder-img{
+    display:none!important;
+  }
+
+}
+
+
+
+
+
+
+@media(max-width:725px ){
+
+  d-toggle{
+
+    display:block;
+
+  }
+
+  body{
+    background: red
+  }
+  ul li a img{
+  width:35px;
+}
+}
